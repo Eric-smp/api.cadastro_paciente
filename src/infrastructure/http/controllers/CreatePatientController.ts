@@ -20,6 +20,7 @@ export class CreatePatientController {
       id: patient.id,
       name: patient.name,
       email: patient.email,
+      cpf: patient.cpf,
       role: patient.role,
     });
   }

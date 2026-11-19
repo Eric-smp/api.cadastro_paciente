@@ -23,6 +23,7 @@ model User {
   name String
   email String @unique
   role UserRole
+  cpf String @unique
   createdAt DateTime @default(now())
 
   @@map("users")
